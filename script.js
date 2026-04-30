@@ -278,6 +278,25 @@ document.addEventListener('DOMContentLoaded', () => {
         // Start the effect
         setTimeout(typeWriter, 500);
     }
+
+    // --- Copy Email Functionality ---
+    const copyEmailBtn = document.getElementById('copy-email-btn');
+    if (copyEmailBtn) {
+        copyEmailBtn.addEventListener('click', () => {
+            const email = "sarthak.farswan16@gmail.com";
+            navigator.clipboard.writeText(email).then(() => {
+                const originalSVG = copyEmailBtn.innerHTML;
+                // Change to checkmark icon
+                copyEmailBtn.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#27c93f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>';
+                
+                setTimeout(() => {
+                    copyEmailBtn.innerHTML = originalSVG;
+                }, 2000);
+            }).catch(err => {
+                console.error('Failed to copy: ', err);
+            });
+        });
+    }
 });
 
 
