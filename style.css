@@ -1154,7 +1154,8 @@ section {
 .project-image img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: top;
 }
 
 .carousel-track {
@@ -1167,7 +1168,8 @@ section {
 .carousel-slide {
     min-width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: top;
 }
 
 .carousel-btn {
