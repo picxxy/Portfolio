@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sarthak Farswan - Cybersecurity Portfolio. Cybercrime Investigator, Threat Intelligence Analyst, and Ethical Hacker.">
+    <title>Sarthak Farswan | Cybersecurity Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Assets/Projects-img/top-img.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-aurora"></div>
+
+    <header class="navbar-container">
+        <nav class="navbar">
+            <div class="nav-logo">
+                <img src="Assets/Projects-img/top-img.png" alt="Sarthak Farswan Logo" class="nav-logo-img">
+                <span>Home</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#work">Work</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#cert-gallery">Credentials</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="Assets/Sarthak_Farswan_Resume.pdf" target="_blank">Resume</a></li>
+                <li><a href="https://www.linkedin.com/in/sarthak-farswan-58133026a" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/picxxy/Project-PhishGuard" target="_blank">GitHub</a></li>
+            </ul>
+            <a href="#contact" class="contact-btn">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="ghost-container">
+                <div class="ghost-interactive" id="ghost-element">
+                    <!-- Cybersecurity 3D Shield -->
+                    <svg width="120" height="120" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="hero-logo-svg">
+                        <defs>
+                            <linearGradient id="cyber-gradient" x1="50" y1="10" x2="50" y2="95"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="0" stop-color="#ffffff" />
+                                <stop offset="0.5" stop-color="#a5b4fc" />
+                                <stop offset="1" stop-color="#4f46e5" />
+                            </linearGradient>
+                            <linearGradient id="inner-glow" x1="50" y1="20" x2="50" y2="80"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="0" stop-color="#6366f1" />
+                                <stop offset="1" stop-color="#312e81" />
+                            </linearGradient>
+                        </defs>
+                        <!-- Base Shield Body (3D effect) -->
+                        <path d="M50 10 L 15 25 L 15 50 C 15 75, 40 90, 50 95 C 60 90, 85 75, 85 50 L 85 25 Z"
+                            fill="url(#cyber-gradient)" />
+
+                        <!-- Inner Dark Layer -->
+                        <path d="M50 18 L 22 30 L 22 50 C 22 70, 42 82, 50 86 C 58 82, 78 70, 78 50 L 78 30 Z"
+                            fill="#09090b" />
+
+                        <!-- Inner Glowing Shield -->
+                        <path d="M50 25 L 30 34 L 30 50 C 30 65, 43 74, 50 78 C 57 74, 70 65, 70 50 L 70 34 Z"
+                            fill="url(#inner-glow)" />
+
+                        <!-- Keyhole / Core -->
+                        <circle cx="50" cy="45" r="6" fill="#ffffff" />
+                        <path d="M47 48 L44 60 L56 60 L53 48 Z" fill="#ffffff" />
+
+                        <!-- Glass Highlight -->
+                        <path
+                            d="M 50 10 L 15 25 L 15 50 C 15 55, 16 60, 18 65 C 20 40, 35 25, 50 25 C 65 25, 80 40, 82 65 C 84 60, 85 55, 85 50 L 85 25 Z"
+                            fill="#ffffff" opacity="0.15" />
+                    </svg>
+                    <div class="ghost-tooltip">Click on Logo</div>
+                </div>
+                <div id="quote-display" class="quote-display"></div>
+            </div>
+
+            <div class="hero-text">
+                <p class="greeting">Hi, I'm <span class="highlight">Sarthak Farswan</span>!</p>
+                <p class="subtitle" id="dynamic-subtitle">Ethical hacker</p>
+                <h1 class="main-title">Securing the digital world<br>one byte at a time</h1>
+                <p class="description">"Every digital footprint tells a story. I specialize in reading them to uncover
+                    hidden truths, track digital adversaries, and secure the unseen."</p>
+
+                <a href="#work" class="primary-btn">
+                    Explore My Work
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="about" class="experience-section">
+            <div class="experience-content">
+                <div class="experience-left">
+                    <h2>Passionate about making architectures secure and resilient!</h2>
+                    <p>With 4+ years of experience across cybersecurity training, consulting, and cybercrime
+                        investigation, I have developed a strong foundation in handling real-world security challenges.
+                        My experience includes assisting in cybercrime cases, analyzing threats, and applying
+                        structured, analytical approaches to problem-solving in operational environments.</p>
+                </div>
+                <div class="experience-right">
+                    <div class="experience-card">
+                        <div class="exp-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg></div>
+                        <div class="exp-details">
+                            <h3>Cybercrime Investigator / Warrior</h3>
+                            <p>UP Police</p>
+                        </div>
+                        <div class="exp-date">08/2024 - Present</div>
+                    </div>
+                    <div class="experience-card">
+                        <div class="exp-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <circle cx="12" cy="12" r="6"></circle>
+                                <circle cx="12" cy="12" r="2"></circle>
+                            </svg></div>
+                        <div class="exp-details">
+                            <h3>Cyber Crime Intervention Officer</h3>
+                            <p>Solved national & international cases</p>
+                        </div>
+                        <div class="exp-date">05/2024 - Present</div>
+                    </div>
+                    <div class="experience-card">
+                        <div class="exp-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                            </svg></div>
+                        <div class="exp-details">
+                            <h3>Cybersecurity Consultant</h3>
+                            <p>CID Crime, Gujarat Police</p>
+                        </div>
+                        <div class="exp-date">11/2024 - 01/2025</div>
+                    </div>
+                    <div class="experience-card">
+                        <div class="exp-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg></div>
+                        <div class="exp-details">
+                            <h3>Cybersecurity Consultant</h3>
+                            <p>Ducat India </p>
+                        </div>
+                        <div class="exp-date">04/2025- 01/2026</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills & Tools Matrix Section -->
+        <section id="skills" class="certifications-section">
+            <div class="section-header">
+                <h2>Skills & Tools Matrix</h2>
+                <p>A comprehensive overview of the technical arsenal I use for offensive and defensive operations.</p>
+            </div>
+
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                        </svg></div>
+                    <div class="cert-info">
+                        <h3>Offensive Security</h3>
+                        <p>Metasploit, Nmap, Burp Suite, SQLmap</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg></div>
+                    <div class="cert-info">
+                        <h3>Digital Forensics & IR</h3>
+                        <p>Wireshark, Splunk, Autopsy, Volatility</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                        </svg></div>
+                    <div class="cert-info">
+                        <h3>Methodologies</h3>
+                        <p>MITRE ATT&CK, NIST, OWASP Top 10, Zero Trust</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path
+                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                            </path>
+                        </svg></div>
+                    <div class="cert-info">
+                        <h3>Open Source Intelligence (OSINT)</h3>
+                        <p>Maltego, Shodan, Recon-ng, Spiderfoot</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                            </path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg></div>
+                    <div class="cert-info">
+                        <h3>Threat Intelligence</h3>
+                        <p>MISP, YARA, OpenCTI, VirusTotal</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg></div>
+                    <div class="cert-info">
+                        <h3>Languages & Scripting</h3>
+                        <p>Python, Bash, C++, JavaScript</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cyber Investigation Game Section -->
+        <section id="game" class="game-section">
+            <div class="section-header">
+                <h2>Cyber Investigation: Operation Zero-Day</h2>
+                <p>Step into the shoes of a SOC Analyst. Analyze clues, make decisions, and neutralize the threat.</p>
+            </div>
+
+            <div class="terminal-container">
+                <div class="terminal-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="terminal-title">investigation@soc:~</span>
+                </div>
+                <div class="terminal-body" id="terminal-body">
+                    <div id="game-intro">
+                        <p>ALERT: Anomalous activity detected on the corporate network.</p>
+                        <p>Your objective is to investigate the anomaly, contain the breach, and eradicate the
+                            persistence mechanism.</p>
+                        <button id="start-game-btn" class="terminal-btn">Start Investigation</button>
+                    </div>
+                    <div id="game-play" class="hidden">
+                        <p id="story-text" style="color: #a5b4fc; margin-bottom: 15px; line-height: 1.5;"></p>
+                        <p id="feedback-text"
+                            style="color: #ef4444; margin-bottom: 15px; min-height: 20px; font-style: italic;"></p>
+
+                        <!-- Choices Container -->
+                        <div id="choices-container" style="display: flex; flex-direction: column; gap: 10px;"></div>
+
+                        <!-- Typing Container -->
+                        <div id="typing-container" class="hidden" style="margin-top: 10px;">
+                            <input type="text" id="type-input" class="type-input" autocomplete="off" placeholder="">
+                            <p style="font-size: 0.8rem; color: #6b7280; margin-top: 5px;">Press Enter to submit</p>
+                        </div>
+                    </div>
+                    <div id="game-over" class="hidden">
+                        <p id="game-over-msg" style="color: #4ade80;">Threat Neutralized! Excellent work, Analyst.</p>
+                        <button id="restart-game-btn" class="terminal-btn">Start New Investigation</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications-section">
+            <div class="section-header">
+                <h2>Certifications</h2>
+                <p>Industry-recognized credentials validating my expertise and commitment to security.</p>
+            </div>
+
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg></div>
+                    <div class="cert-info">
+                        <h3>Certified Ethical Hacker (CEH)</h3>
+                        <p>EC-Council • Valid till Apr 2026</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <circle cx="12" cy="12" r="6"></circle>
+                            <circle cx="12" cy="12" r="2"></circle>
+                        </svg></div>
+                    <div class="cert-info">
+                        <h3>Certified Threat Intelligence Analyst (CTIA)</h3>
+                        <p>EC-Council • Valid till Mar 2027</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon
+                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                            </polygon>
+                        </svg></div>
+                    <div class="cert-info">
+                        <h3>Cybersecurity Career Mentor</h3>
+                        <p>EC-Council</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                        </svg></div>
+                    <div class="cert-info">
+                        <h3>Certified Network Security Practitioner (CNSP)</h3>
+                        <p>The SecOps Group • Jun 2024</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg></div>
+                    <div class="cert-info">
+                        <h3>Ethical Hacking Certification</h3>
+                        <p>Hacker X • Jun 2021</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <circle cx="10" cy="13" r="2"></circle>
+                            <line x1="11.41" y1="14.41" x2="14" y2="17"></line>
+                        </svg></div>
+                    <div class="cert-info">
+                        <h3>Computer Hacking Forensic Investigator (CHFI)</h3>
+                        <p>EC-Council • Valid till Jul 2027</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            <path d="M8 11l3 3 5-5"></path>
+                        </svg></div>
+                    <div class="cert-info">
+                        <h3>ISAC Certified Cyber Crime Intervention Officer</h3>
+                        <p>National Security Database • Mar 2024</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                            </path>
+                        </svg></div>
+                    <div class="cert-info">
+                        <h3>ISEA Certified Cyber Hygiene Practitioner</h3>
+                        <p>MeitY, Govt of India • Dec 2023</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                        </svg></div>
+                    <div class="cert-info">
+                        <h3>Certificate of Cybercrime Intervention Officer</h3>
+                        <p>Cybercrime Intervention Officer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificate Gallery Section (Terminal Output) -->
+        <section id="cert-gallery" class="terminal-section">
+            <div class="section-header">
+                <h2>Credential Verification</h2>
+                <p>System authorized. Accessing certified files...</p>
+            </div>
+            <div class="terminal-container">
+                <div class="terminal-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="terminal-title">root@sarthak:~# ./verify_credentials.sh</span>
+                </div>
+                <div class="terminal-body">
+                    <div class="terminal-line"><span class="prompt">$</span> Checking database... <span
+                            class="success">[OK]</span></div>
+                    <div class="terminal-line"><span class="prompt">$</span> 8 records found. Decrypting...</div>
+                    <div class="terminal-list">
+                        <div class="terminal-item" data-img="gallery/cert-img/CEH.png">
+                            <span class="file-name">CEH_Master.crt</span> <span class="status">VERIFIED</span>
+                        </div>
+                        <div class="terminal-item" data-img="gallery/cert-img/CCIO_page-0001.jpg">
+                            <span class="file-name">CCIO.crt</span> <span class="status">VERIFIED</span>
+                        </div>
+                        <div class="terminal-item" data-img="gallery/cert-img/ECC-CEH-Certificate_page-0001.jpg">
+                            <span class="file-name">ECC_CEH_ANSI.crt</span> <span class="status">VERIFIED</span>
+                        </div>
+                        <div class="terminal-item" data-img="gallery/cert-img/ECC-CTIA-Certificate_page-0001.jpg">
+                            <span class="file-name">ECC_CTIA.crt</span> <span class="status">VERIFIED</span>
+                        </div>
+                        <div class="terminal-item" data-img="gallery/cert-img/ECC-CHFI-Certificate-ANSI_page-0001.jpg">
+                            <span class="file-name">ECC_CHFI.crt</span> <span class="status">VERIFIED</span>
+                        </div>
+                        <div class="terminal-item" data-img="gallery/cert-img/MentorBadge.png">
+                            <span class="file-name">Mentorship_Badge.crt</span> <span class="status">VERIFIED</span>
+                        </div>
+                        <div class="terminal-item" data-img="gallery/cert-img/NSD_page-0001.jpg">
+                            <span class="file-name">NSD_Clearance.crt</span> <span class="status">VERIFIED</span>
+                        </div>
+                        <div class="terminal-item"
+                            data-img="gallery/cert-img/National%20Security%20Database_page-0001.jpg">
+                            <span class="file-name">National_Security_DB.crt</span> <span class="status">VERIFIED</span>
+                        </div>
+                    </div>
+                    <div class="terminal-line blink-cursor"><span class="prompt">$</span> _</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section (Glowing Timeline) -->
+        <section id="gallery" class="timeline-section">
+            <div class="section-header">
+                <h2>Event Gallery</h2>
+                <p>A visual log of events, talks, and moments.</p>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+
+                <div class="timeline-item left">
+                    <div class="timeline-node"></div>
+                    <!-- Snake S-Curve connecting to the next event -->
+                    <div class="snake-connector">
+                        <svg viewBox="0 0 200 100" preserveAspectRatio="none">
+                            <path d="M 100 0 C 250 25, -50 75, 100 100" fill="none" stroke="#818cf8" stroke-width="2"
+                                vector-effect="non-scaling-stroke"
+                                style="filter: drop-shadow(0 0 8px rgba(129, 140, 248, 0.6));" stroke-dasharray="6 6" />
+                        </svg>
+                        <div class="snake-text navy-label">SEMINAR</div>
+                    </div>
+
+                    <div class="timeline-content">
+                        <div class="timeline-carousel" id="event-carousel-a" data-index="0">
+                            <div class="carousel-track">
+                                <img src="gallery/Images/A1.jpeg" alt="Event A1" class="carousel-slide" loading="lazy">
+                                <img src="gallery/Images/A2.jpeg" alt="Event A2" class="carousel-slide" loading="lazy">
+                                <img src="gallery/Images/A3.jpeg" alt="Event A3" class="carousel-slide" loading="lazy">
+                            </div>
+                            <button class="carousel-btn prev-btn"
+                                onclick="moveCarousel('event-carousel-a', -1)">&#10094;</button>
+                            <button class="carousel-btn next-btn"
+                                onclick="moveCarousel('event-carousel-a', 1)">&#10095;</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item right">
+                    <div class="timeline-node"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-carousel" id="event-carousel-b" data-index="0">
+                            <div class="carousel-track">
+                                <img src="gallery/Images/B1.jpeg" alt="Event B1" class="carousel-slide" loading="lazy">
+                                <img src="gallery/Images/B2.jpeg" alt="Event B2" class="carousel-slide" loading="lazy">
+                            </div>
+                            <button class="carousel-btn prev-btn"
+                                onclick="moveCarousel('event-carousel-b', -1)">&#10094;</button>
+                            <button class="carousel-btn next-btn"
+                                onclick="moveCarousel('event-carousel-b', 1)">&#10095;</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item left">
+                    <div class="timeline-node"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-carousel" id="event-carousel-c" data-index="0">
+                            <div class="carousel-track">
+                                <img src="gallery/Images/C1.jpeg" alt="Event C1" class="carousel-slide" loading="lazy">
+                                <img src="gallery/Images/C2.jpeg" alt="Event C2" class="carousel-slide" loading="lazy">
+                                <img src="gallery/Images/C3.jpeg" alt="Event C3" class="carousel-slide" loading="lazy">
+                            </div>
+                            <button class="carousel-btn prev-btn"
+                                onclick="moveCarousel('event-carousel-c', -1)">&#10094;</button>
+                            <button class="carousel-btn next-btn"
+                                onclick="moveCarousel('event-carousel-c', 1)">&#10095;</button>
+                        </div>
+                    </div>
+
+                    <!-- Side Label -->
+                    <div class="timeline-side-label">
+                        <span class="side-label-text navy-label">LT CDR INDIAN NAVY</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item right">
+                    <div class="timeline-node"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-carousel" id="event-carousel-d" data-index="0">
+                            <div class="carousel-track">
+                                <img src="gallery/Images/D1.jpeg" alt="Event D1" class="carousel-slide" loading="lazy">
+                                <img src="gallery/Images/D2.jpeg" alt="Event D2" class="carousel-slide" loading="lazy">
+                                <img src="gallery/Images/D3.jpeg" alt="Event D3" class="carousel-slide" loading="lazy">
+                                <img src="gallery/Images/D4.jpeg" alt="Event D4" class="carousel-slide" loading="lazy">
+                                <img src="gallery/Images/D5.jpeg" alt="Event D5" class="carousel-slide" loading="lazy">
+                            </div>
+                            <button class="carousel-btn prev-btn"
+                                onclick="moveCarousel('event-carousel-d', -1)">&#10094;</button>
+                            <button class="carousel-btn next-btn"
+                                onclick="moveCarousel('event-carousel-d', 1)">&#10095;</button>
+                        </div>
+                    </div>
+                    <!-- Side Label for NCIIPC Pentathon -->
+                    <div class="timeline-side-label">
+                        <span class="side-label-text navy-label" style="text-align: right; line-height: 1.5;">
+                            NATIONAL CRITICAL INFORMATION INFRASTRUCTURE<br>PROTECTION CENTER - PENTATHON 24 & 25
+                        </span>
+                    </div>
+                </div>
+
+                <div class="timeline-item left">
+                    <div class="timeline-node"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-carousel" id="event-carousel-e" data-index="0">
+                            <div class="carousel-track">
+                                <img src="gallery/Images/E1.jpeg" alt="Event E1" class="carousel-slide" loading="lazy">
+                                <img src="gallery/Images/E2.jpeg" alt="Event E2" class="carousel-slide" loading="lazy">
+                            </div>
+                            <button class="carousel-btn prev-btn"
+                                onclick="moveCarousel('event-carousel-e', -1)">&#10094;</button>
+                            <button class="carousel-btn next-btn"
+                                onclick="moveCarousel('event-carousel-e', 1)">&#10095;</button>
+                        </div>
+                    </div>
+
+                    <!-- Side Label for RJ Police -->
+                    <div class="timeline-side-label">
+                        <span class="side-label-text navy-label">CYBERCRIME OFFICER RJ-POLICE</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item right">
+                    <div class="timeline-node"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-carousel" id="event-carousel-f" data-index="0">
+                            <div class="carousel-track">
+                                <img src="gallery/Images/F1.jpeg" alt="Event F1" class="carousel-slide" loading="lazy">
+                                <img src="gallery/Images/F2.jpeg" alt="Event F2" class="carousel-slide" loading="lazy">
+                                <img src="gallery/Images/F3.jpeg" alt="Event F3" class="carousel-slide" loading="lazy">
+                            </div>
+                            <button class="carousel-btn prev-btn"
+                                onclick="moveCarousel('event-carousel-f', -1)">&#10094;</button>
+                            <button class="carousel-btn next-btn"
+                                onclick="moveCarousel('event-carousel-f', 1)">&#10095;</button>
+                        </div>
+                    </div>
+
+                    <!-- Side Label for CTF -->
+                    <div class="timeline-side-label">
+                        <span class="side-label-text navy-label">CTF</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item left">
+                    <div class="timeline-node"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-carousel" id="event-carousel-g" data-index="0">
+                            <div class="carousel-track">
+                                <img src="gallery/Images/G1.jpeg" alt="Event G1" class="carousel-slide" loading="lazy">
+                                <img src="gallery/Images/G2.jpeg" alt="Event G2" class="carousel-slide" loading="lazy">
+                                <img src="gallery/Images/G3.jpeg" alt="Event G3" class="carousel-slide" loading="lazy">
+                                <img src="gallery/Images/G4.jpeg" alt="Event G4" class="carousel-slide" loading="lazy">
+                                <img src="gallery/Images/G5.jpeg" alt="Event G5" class="carousel-slide" loading="lazy">
+                            </div>
+                            <button class="carousel-btn prev-btn"
+                                onclick="moveCarousel('event-carousel-g', -1)">&#10094;</button>
+                            <button class="carousel-btn next-btn"
+                                onclick="moveCarousel('event-carousel-g', 1)">&#10095;</button>
+                        </div>
+                    </div>
+
+                    <!-- Side Label for EVENTS -->
+                    <div class="timeline-side-label">
+                        <span class="side-label-text navy-label">EVENTS</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item right">
+                    <div class="timeline-node"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-carousel" id="event-carousel-h" data-index="0">
+                            <div class="carousel-track">
+                                <img src="gallery/Images/H1.jpeg" alt="Event H1" class="carousel-slide" loading="lazy">
+                            </div>
+                            <button class="carousel-btn prev-btn"
+                                onclick="moveCarousel('event-carousel-h', -1)">&#10094;</button>
+                            <button class="carousel-btn next-btn"
+                                onclick="moveCarousel('event-carousel-h', 1)">&#10095;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="work" class="projects-section">
+            <div class="section-header">
+                <h2>Projects</h2>
+                <p>Explore my projects.</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1: Panopticon -->
+                <div class="project-card">
+                    <div class="project-carousel" id="panopticon-carousel" data-index="0">
+                        <div class="carousel-track">
+                            <img src="Assets/Projects-img/panopticon.png" alt="Panopticon Screenshot 1"
+                                class="carousel-slide">
+                            <img src="Assets/Projects-img/panopticon1.png" alt="Panopticon Screenshot 2"
+                                class="carousel-slide">
+                            <img src="Assets/Projects-img/panopticon2.png" alt="Panopticon Screenshot 3"
+                                class="carousel-slide">
+                        </div>
+                        <button class="carousel-btn prev-btn"
+                            onclick="moveCarousel('panopticon-carousel', -1)">&#10094;</button>
+                        <button class="carousel-btn next-btn"
+                            onclick="moveCarousel('panopticon-carousel', 1)">&#10095;</button>
+                    </div>
+                    <div class="project-info">
+                        <h3>Panopticon</h3>
+                        <p>Project Panopticon is a real-time, browser-based Open Source Intelligence (OSINT) and Threat
+                            Intelligence framework. It provides security analysts and investigators with a highly
+                            visual, terminal-style interface to track IP reputations, domain history, cryptocurrency
+                            traces, and dark web data breaches—all from a single, lightweight dashboard.</p>
+
+                    </div>
+                </div>
+
+                <!-- Project 2: WhaleWatcher -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Assets/Projects-img/whalewatcher.png" alt="WhaleWatcher Dashboard" loading="lazy">
+                    </div>
+                    <div class="project-info">
+                        <h3>WhaleWatcher</h3>
+                        <p>Whale Watcher is a highly visual, real-time cryptocurrency surveillance dashboard designed to
+                            track massive financial movements across the blockchain.</p>
+
+                    </div>
+                </div>
+
+                <!-- Project 3: PhishGuard -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Assets/Projects-img/phishgaurd.png" alt="PhishGuard Interface" loading="lazy">
+                    </div>
+                    <div class="project-info">
+                        <h3>PhishGuard</h3>
+                        <p>PhishGuard is a high-performance, fully client-side cybersecurity dashboard designed to
+                            perform deep, real-time intelligence gathering on suspicious URLs and domains.</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-card">
+            <div class="footer-content">
+                <h2>How I can help <em>you?</em></h2>
+
+                <div class="footer-options">
+                    <div class="footer-option">
+                        <h3>Hire me?</h3>
+                        <p>Need a robust, high-security infrastructure? Let's build something amazing!</p>
+                    </div>
+                    <div class="footer-option">
+                        <h3>Consulting</h3>
+                        <p>Let's audit your current setup and implement security protocols!</p>
+                    </div>
+                </div>
+
+
+
+                <a href="mailto:placeholder@email.com" class="contact-full-btn">Get In Touch →</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>Sarthak Farswan © 2026 · If you don't use 2FA, We're not friends 👊 👀</p>
+
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
